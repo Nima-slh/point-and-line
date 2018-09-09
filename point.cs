@@ -64,6 +64,9 @@ namespace point_and_line
             point b = new point();
             return distance(a, b);
         }
-       
+        public override string ToString()
+        {
+            return $" x = {X} y = {Y}";
+        }
     }
 }
